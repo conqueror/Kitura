@@ -36,9 +36,14 @@ Kitura is a web framework and web server that is created for web services writte
 
  `brew install http-parser`, `brew install pcre2`, `brew install curl`, and `brew install hiredis`
 
-4. Download and install the latest Swift compiler.
+4. Download and install the latest Swift compiler (**Please download, Xcode Swift Development Snapshot**)
 
- Make sure the latest Swift compiler is installed https://swift.org/download/. After installing it, make sure you update your PATH environment variable as described in the installation instructions (e.g. export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:$PATH)
+  Make sure the latest Swift compiler is installed or simply downlod it from the following link:
+[Swift Compiler] (https://swift.org/builds/development/xcode/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-osx.pkg)
+ 
+  After installing it, make sure you update your PATH environment variable as described in the installation instructions for instance:
+ 
+ `export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:"${PATH}")`
 
 5. Grab the Swift package dependencies using Swift Package Manager
 
